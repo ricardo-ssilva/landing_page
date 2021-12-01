@@ -226,6 +226,7 @@ main  {
 .videos {
     background-color: black;
     padding: 40px;
+    margin-bottom: 20px;
     
 }
 .video_title {
@@ -242,6 +243,7 @@ main  {
     position: relative;
     height: 0px;
     padding: 0px 0px 56.25%;
+    margin-bottom: 20px;
 }
 .video_area iframe {
     position: absolute;
@@ -252,26 +254,50 @@ main  {
     height: 100%;
     border: 0px;
 }
-.new_title {
+h3 {
+    width: 1000px;
+    margin: auto;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+.description {
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.description{
+.images {
     display: flex;
-    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
 }
-.specifications {
+.description_title {
+    font-size: 27px;
+   
+}
+.information {
+    flex: 2;
+}
+.info{
+    margin-bottom: 20px;
+}
+.info_title {
+    color: #965e15;
+    font-size: 20px;
+}
+.info_body {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    font-size: 14px;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin-right: 30px;
+    padding: 5px;
 }
-
-.specifications_title {
-    font-size: 28px;
-    
+.info_desc {
+    font-weight: 600;
 }
-
-.infotmations {
-    
+.disclaimer{
+    margin-top: 40px;
+    color: grey;
+    text-align: justify;
 }
