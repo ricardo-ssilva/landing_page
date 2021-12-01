@@ -301,3 +301,54 @@ h3 {
     color: grey;
     text-align: justify;
 }
+.signup {
+    display: flex;
+    justify-content: center;
+    background-color: #F7F8FA;
+    margin-top: 20px;
+    padding: 100px 2px;
+}
+.sign {
+    flex: 2;
+}
+.follow {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+}
+.sign_title {
+    font-size: 27px;
+    font-weight: 600;
+}
+label {
+    font-size: 14px;
+    color: rgb(32, 32, 32);
+}
+#email {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 450px;
+    background-color: #F7F8FA;
+    padding: 10px 0px;
+}
+.subscribe {
+    color: white;
+    background: black;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+}
+.follow_title {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.media_icons {
+    display: flex;
+}
+.media {
+    flex: 1;
+    
+    margin-right: 20px;
+}
