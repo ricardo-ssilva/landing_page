@@ -83,6 +83,9 @@ ul a:hover {
     font-size: 40px;
     font-weight: 300;
 }
+main  {
+    margin-bottom: 80px;
+}
 .main_information {
     display: flex;
     justify-content: space-around;
@@ -170,7 +173,7 @@ ul a:hover {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.switch_buttons {
+.switch_buttons{
     display: flex;
     width: 100%;
 
@@ -183,6 +186,9 @@ ul a:hover {
 .store {
     flex: 1;
     color: #60769a;
+}
+.switch_buttons a {
+    flex: 1;
 }
 .store:hover {
     flex: 1;
@@ -200,4 +206,72 @@ ul a:hover {
     color: white;
     background-color: #485974;
     transition-duration: 0.2s;
+}
+.box_icons {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.3px solid #d3d1d1;
+    color: rgb(48, 48, 48);
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+}
+.icon_desc {
+    margin-top: 10px;
+}
+.videos {
+    background-color: black;
+    padding: 40px;
+    
+}
+.video_title {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 28px;
+}
+.container_video {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+.video_area {
+    position: relative;
+    height: 0px;
+    padding: 0px 0px 56.25%;
+}
+.video_area iframe {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+.new_title {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.description{
+    display: flex;
+    justify-content: center;
+}
+.specifications {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.specifications_title {
+    font-size: 28px;
+    
+}
+
+.infotmations {
+    
 }
