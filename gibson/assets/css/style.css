@@ -105,6 +105,7 @@ main  {
 }
 .article_text {
     line-height: 25px;
+    text-align: justify;
     color: rgb(83, 83, 83);
     font-size: 16px;
     padding-bottom: 20px;
@@ -290,7 +291,7 @@ h3 {
     font-size: 14px;
     justify-content: space-between;
     border-bottom: 1px solid grey;
-    margin-right: 30px;
+    
     padding: 5px;
 }
 .info_desc {
@@ -321,6 +322,13 @@ h3 {
     font-size: 27px;
     font-weight: 600;
 }
+.sign_small, small > a {
+    padding-top: 15px;
+    font-weight: 700;
+}
+small > a {
+    text-decoration: underline;
+}
 label {
     font-size: 14px;
     color: rgb(32, 32, 32);
@@ -349,6 +357,85 @@ label {
 }
 .media {
     flex: 1;
-    
     margin-right: 20px;
+}
+.top_footer {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 40px 0px;
+}
+.top_footer_informations {
+    margin: 40px;
+    border-top: 3px solid white;
+    flex: 1;
+}
+.top_footer_info_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.top_footer_info_content, .top_footer_info_content > div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.top_footer_info_content {
+    margin-top: 20px;
+}
+.top_footer_info_content a {
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+}
+.top_footer_info_content > div {
+    margin-top: 30px;
+}
+.badge {
+    margin-top: 0px;
+}
+.badge img {
+    width: 145px;
+    height: 50px;
+}
+.top_footer_by{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.top_footer_by a {
+    color: white;
+    text-decoration: underline;
+}
+.footer_bottom {
+    padding: 40px 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: var(--bg-color-header);
+}
+.footer_bottom_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer_images {
+    display: flex;
+}
+.footer_images a {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex: 1;
+}
+.footer_bottom_small {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 12px;
+}
+.footer_bottom_small a {
+    color: white;
+    text-decoration: none;
 }
