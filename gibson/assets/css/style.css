@@ -61,7 +61,8 @@ ul a:hover {
     flex-direction: column;
     justify-content: center;
     padding: 10px;
-    width: 1000px;
+    max-width: 1000px;
+    flex: 1;
 }
 
 .product_family{
@@ -77,8 +78,7 @@ ul a:hover {
 }
 .product_selected {
    margin-top: 5px;
-}
-.product_selected h1 {
+} h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     font-weight: 300;
@@ -256,7 +256,7 @@ main  {
     border: 0px;
 }
 h3 {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
@@ -337,7 +337,7 @@ label {
     outline: none;
     border: none;
     border-bottom: 1px solid black;
-    width: 450px;
+    width: 75%;
     background-color: #F7F8FA;
     padding: 10px 0px;
 }
@@ -362,7 +362,7 @@ label {
 .top_footer {
     display: flex;
     flex-direction: column;
-     align-items: center;
+    align-items: center;
     justify-content: center;
     background-color: rgb(22, 22, 22);
     color: white;
@@ -438,4 +438,35 @@ label {
 .footer_bottom_small a {
     color: white;
     text-decoration: none;
+}
+@media (max-width: 810px) {
+    header a {
+        padding: 15px 10px;
+    }
+}
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        max-width: 1000px;
+        flex: 1;
+        align-items: center;
+    }
+    .footer_images {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .footer_images a {
+        margin-bottom: 30px;
+    }
+   
 }
